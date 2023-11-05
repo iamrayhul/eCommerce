@@ -1,0 +1,45 @@
+@font-face {
+	font-family: Centra;
+	src: url('./assets/Font/SFPRODISPLAYMEDIUM.OTF');
+	font-weight: 700;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Centra;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+  
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  color: #fff !important;
+  font-family: 'Centra', sans-serif !important;
+  cursor: url("./assets/cursor.png"), auto;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  line-height:20px
+}
+  
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+
+  
+  .greenColor {
+    color: rgb(5, 255, 5) !important;
+  }
+  .redColor {
+    color: red !important;
+  }
